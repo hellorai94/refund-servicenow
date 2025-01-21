@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2c8d3250c397d2101f5afb377d013152" extends="task" label="Refund " max_length="40" name="x_1593191_refund_refund" type="collection">
+        <element label="Group" max_length="32" name="group" reference="sys_user_group" type="reference"/>
+        <element label="Refund Category" max_length="1024" name="refund_category" reference="x_1593191_refund_category" type="glide_list"/>
+        <element label="USD Amount" max_length="40" name="usd_amount" type="currency"/>
+        <element label="BRL Amount" max_length="40" name="brl_amount" type="currency"/>
+        <element label="Refund Date" max_length="40" name="refund_date" type="glide_date"/>
+    </element>
+</database>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b73b729cc357d2101f5afb377d013154" label="Category" max_length="40" name="x_1593191_refund_category" type="collection">
+        <element display="true" label="Refund Category" max_length="40" name="refund_category" type="string"/>
+    </element>
+</database>

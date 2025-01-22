@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 18:52:07</sys_created_on>
+        <sys_id>00655be8c3db16101f5afb377d01312c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1593191_refund.requesters_ops</sys_name>
+        <sys_package display_value="Refund" source="x_1593191_refund">2da3b254c357d2101f5afb377d013180</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">2da3b254c357d2101f5afb377d013180</sys_scope>
+        <sys_security_acl display_value="">88655be8c3db16101f5afb377d01312b</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_00655be8c3db16101f5afb377d01312c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 18:52:07</sys_updated_on>
+        <sys_user_role display_value="x_1593191_refund.requesters_ops" name="x_1593191_refund.requesters_ops">e05f8b58c3d7d2101f5afb377d013107</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund">2da3b254c357d2101f5afb377d013180</application>
+        <file_path/>
+        <instance_id>b49b406edb92f9d04162684e1396196b</instance_id>
+        <instance_name>dev206495</instance_name>
+        <name>sys_security_acl_role_00655be8c3db16101f5afb377d01312c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-21 18:52:07</sys_created_on><sys_id>00655be8c3db16101f5afb377d01312c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_1593191_refund.requesters_ops</sys_name><sys_package display_value="Refund" source="x_1593191_refund">2da3b254c357d2101f5afb377d013180</sys_package><sys_policy/><sys_scope display_value="Refund">2da3b254c357d2101f5afb377d013180</sys_scope><sys_security_acl display_value="">88655be8c3db16101f5afb377d01312b</sys_security_acl><sys_update_name>sys_security_acl_role_00655be8c3db16101f5afb377d01312c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-21 18:52:07</sys_updated_on><sys_user_role display_value="x_1593191_refund.requesters_ops" name="x_1593191_refund.requesters_ops">e05f8b58c3d7d2101f5afb377d013107</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-572646900</payload_hash>
+        <record_name>.x_1593191_refund.requesters_ops</record_name>
+        <reverted_from/>
+        <source>fce06b9cc31bd2101f5afb377d013168</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 18:52:07</sys_created_on>
+        <sys_id>4c655be8c3db16101f5afb377d01312e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1948a3529590000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 18:52:07</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>40655be8f1db16100e66173f91b5202e</update_guid>
+        <update_guid_history>40655be8f1db16100e66173f91b5202e:-572646900</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_1593191_refund.requesters_ops">5d17df6cc3db16101f5afb377d0131b4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 18:59:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>62ef3855598d47cb9353e5363551aac9</sys_id>
+        <sys_metadata>00655be8c3db16101f5afb377d01312c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1593191_refund.requesters_ops</sys_name>
+        <sys_package display_value="Refund" source="x_1593191_refund">2da3b254c357d2101f5afb377d013180</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Refund">2da3b254c357d2101f5afb377d013180</sys_scope>
+        <sys_scope_delete display_value="">3b883fced2c243f08c360744fe05e440</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_00655be8c3db16101f5afb377d01312c</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_00655be8c3db16101f5afb377d01312c">4c655be8c3db16101f5afb377d01312e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 18:59:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

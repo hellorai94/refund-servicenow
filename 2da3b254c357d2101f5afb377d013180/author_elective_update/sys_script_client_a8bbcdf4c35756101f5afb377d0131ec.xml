@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>refund_date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Past Date</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+ 
+   var today = new Date();
+   var startDate = new Date(g_form.getValue("refund_date"));
+ 
+   if (startDate.valueOf() > today.valueOf()) {
+       g_form.addErrorMessage("Select only past dates.");
+       g_form.clearValue("refund_date");
+       return false;
+   }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 03:33:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a8bbcdf4c35756101f5afb377d0131ec</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Past Date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Refund" source="x_1593191_refund">2da3b254c357d2101f5afb377d013180</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">2da3b254c357d2101f5afb377d013180</sys_scope>
+        <sys_update_name>sys_script_client_a8bbcdf4c35756101f5afb377d0131ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 04:35:39</sys_updated_on>
+        <table>x_1593191_refund_refund</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund">2da3b254c357d2101f5afb377d013180</application>
+        <file_path/>
+        <instance_id>b49b406edb92f9d04162684e1396196b</instance_id>
+        <instance_name>dev206495</instance_name>
+        <name>sys_script_client_a8bbcdf4c35756101f5afb377d0131ec</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;refund_date&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Past Date&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+ 
+   var today = new Date();
+   var startDate = new Date(g_form.getValue("refund_date"));
+ 
+   if (startDate.valueOf() &gt; today.valueOf()) {
+       g_form.addErrorMessage("Select only past dates.");
+       g_form.clearValue("refund_date");
+       return false;
+   }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-22 03:33:31&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a8bbcdf4c35756101f5afb377d0131ec&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Past Date&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Refund" source="x_1593191_refund"&gt;2da3b254c357d2101f5afb377d013180&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Refund"&gt;2da3b254c357d2101f5afb377d013180&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_a8bbcdf4c35756101f5afb377d0131ec&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-22 04:35:39&lt;/sys_updated_on&gt;&lt;table&gt;x_1593191_refund_refund&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>56359545</payload_hash>
+        <record_name>Past Date</record_name>
+        <reverted_from/>
+        <source>fce06b9cc31bd2101f5afb377d013168</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 04:35:39</sys_created_on>
+        <sys_id>b3ea95b8c39756101f5afb377d01310c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1948c4b66cc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 04:35:39</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>b7ea95b810975610a6224c3e380f2e0b</update_guid>
+        <update_guid_history>b7ea95b810975610a6224c3e380f2e0b:56359545,16561df099975610ddd235404d5d0019:-261271764,04e49db0559756103e3e94da71a8ef71:-1500794440,40f39dfc9b57561072d9d379076519b0:-261271764,d0f1957ca357561014e4d5b019d55425:786042647,9651d97c55575610c98ff2e67f350362:-130877192,9720d5f8c357561004f4b11ec96aa182:-819302782,b8fd0578d75756107679505f9c12cf75:-2018185993,79bcc1b44c575610a8528154b50c60f9:-399302932</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 14:10:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>a0f2a4bf3a7f437099fdce0ee72e9900</sys_id>
+        <sys_metadata>a8bbcdf4c35756101f5afb377d0131ec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Past Date</sys_name>
+        <sys_package display_value="Refund" source="x_1593191_refund">2da3b254c357d2101f5afb377d013180</sys_package>
+        <sys_parent display_value="Refund ">2c8d3250c397d2101f5afb377d013152</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Refund">2da3b254c357d2101f5afb377d013180</sys_scope>
+        <sys_scope_delete display_value="">3b883fced2c243f08c360744fe05e440</sys_scope_delete>
+        <sys_update_name>sys_script_client_a8bbcdf4c35756101f5afb377d0131ec</sys_update_name>
+        <sys_update_version display_value="sys_script_client_a8bbcdf4c35756101f5afb377d0131ec">b3ea95b8c39756101f5afb377d01310c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 14:10:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to table="x_1593191_refund_refund">group=1bad4bd4c3d7d2101f5afb377d0131be^EQ<item display_table="sys_user_group" display_value="Refund Sales " endquery="false" field="group" goto="false" newquery="false" operator="=" or="false" value="1bad4bd4c3d7d2101f5afb377d0131be"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </applies_to>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description>Allow read for records in x_1593191_refund_refund if the record matches the criteria (group=1bad4bd4c3d7d2101f5afb377d0131be^EQ), for users with role x_1593191_refund.resolver_hr_sales.</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1593191_refund_refund</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 22:29:28</sys_created_on>
+        <sys_id>ca8d3250c397d2101f5afb377d01318c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_1593191_refund_refund</sys_name>
+        <sys_package display_value="Refund" source="x_1593191_refund">2da3b254c357d2101f5afb377d013180</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">2da3b254c357d2101f5afb377d013180</sys_scope>
+        <sys_update_name>sys_security_acl_ca8d3250c397d2101f5afb377d01318c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 18:48:16</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund">2da3b254c357d2101f5afb377d013180</application>
+        <file_path/>
+        <instance_id>b49b406edb92f9d04162684e1396196b</instance_id>
+        <instance_name>dev206495</instance_name>
+        <name>sys_security_acl_ca8d3250c397d2101f5afb377d01318c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to table="x_1593191_refund_refund">group=1bad4bd4c3d7d2101f5afb377d0131be^EQ<item display_table="sys_user_group" display_value="Refund Sales " endquery="false" field="group" goto="false" newquery="false" operator="=" or="false" value="1bad4bd4c3d7d2101f5afb377d0131be"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></applies_to><condition/><decision_type>allow</decision_type><description>Allow read for records in x_1593191_refund_refund if the record matches the criteria (group=1bad4bd4c3d7d2101f5afb377d0131be^EQ), for users with role x_1593191_refund.resolver_hr_sales.</description><local_or_existing>Local</local_or_existing><name>x_1593191_refund_refund</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-20 22:29:28</sys_created_on><sys_id>ca8d3250c397d2101f5afb377d01318c</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_1593191_refund_refund</sys_name><sys_package display_value="Refund" source="x_1593191_refund">2da3b254c357d2101f5afb377d013180</sys_package><sys_policy/><sys_scope display_value="Refund">2da3b254c357d2101f5afb377d013180</sys_scope><sys_update_name>sys_security_acl_ca8d3250c397d2101f5afb377d01318c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-21 18:48:16</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-425786738</payload_hash>
+        <record_name>x_1593191_refund_refund</record_name>
+        <reverted_from/>
+        <source>fce06b9cc31bd2101f5afb377d013168</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 18:48:16</sys_created_on>
+        <sys_id>377493a8c3db16101f5afb377d0131d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1948a31a3f80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 18:48:16</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>2b7493a857db1610874c94525a18f0cf</update_guid>
+        <update_guid_history>2b7493a857db1610874c94525a18f0cf:-425786738,6c0647a42c9b1610e71c26dea3c47e0e:960602805,4a8db2500297d2102e6e63e59d4e7780:736457957</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 18:49:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>0f2c931294b7458395c064341573b8f9</sys_id>
+        <sys_metadata>ca8d3250c397d2101f5afb377d01318c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1593191_refund_refund</sys_name>
+        <sys_package display_value="Refund" source="x_1593191_refund">2da3b254c357d2101f5afb377d013180</sys_package>
+        <sys_parent display_value="x_1593191_refund_refund">608d3250c397d2101f5afb377d013155</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Refund">2da3b254c357d2101f5afb377d013180</sys_scope>
+        <sys_scope_delete display_value="">3b883fced2c243f08c360744fe05e440</sys_scope_delete>
+        <sys_update_name>sys_security_acl_ca8d3250c397d2101f5afb377d01318c</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_ca8d3250c397d2101f5afb377d01318c">377493a8c3db16101f5afb377d0131d0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 18:49:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1593191_refund_refund">state=4^EQ<item display_value="Reproved" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="4"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Reproved</label>
+        <name>Reproved</name>
+        <order>400</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 16:53:21</sys_created_on>
+        <sys_id>5c3abaa4c35b16101f5afb377d0131fe</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Reproved</sys_name>
+        <sys_package display_value="Refund" source="x_1593191_refund">2da3b254c357d2101f5afb377d013180</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">2da3b254c357d2101f5afb377d013180</sys_scope>
+        <sys_update_name>sys_process_flow_5c3abaa4c35b16101f5afb377d0131fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 12:42:09</sys_updated_on>
+        <table>x_1593191_refund_refund</table>
+    </sys_process_flow>
+</record_update>

@@ -48,10 +48,10 @@
             <sys_created_on>2025-01-21 00:20:05</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-21 00:20:19</sys_updated_on>
-            <value>8</value>
+            <sys_updated_on>2025-01-21 14:46:20</sys_updated_on>
+            <value>2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -86,10 +86,10 @@
             <sys_created_on>2025-01-21 00:20:50</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-21 00:22:36</sys_updated_on>
-            <value>2</value>
+            <sys_updated_on>2025-01-21 14:46:25</sys_updated_on>
+            <value>8</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -105,29 +105,29 @@
             <sys_created_on>2025-01-21 00:21:49</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-21 00:23:44</sys_updated_on>
-            <value>3</value>
+            <sys_updated_on>2025-01-22 12:39:25</sys_updated_on>
+            <value>6</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Resolved</label>
+            <label>Completed</label>
             <language>en</language>
             <name>x_1593191_refund_refund</name>
             <sequence>6</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-21 00:23:05</sys_created_on>
+            <sys_created_on>2025-01-22 12:37:09</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-21 00:23:25</sys_updated_on>
-            <value>6</value>
+            <sys_updated_on>2025-01-22 12:39:33</sys_updated_on>
+            <value>3</value>
         </sys_choice>
     </sys_choice>
 </record_update>

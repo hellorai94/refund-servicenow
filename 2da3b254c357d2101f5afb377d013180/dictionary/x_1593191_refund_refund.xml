@@ -3,6 +3,7 @@
         <element label="USD" max_length="40" name="usd_amount" type="float"/>
         <element label="Group" max_length="32" name="group" reference="sys_user_group" type="reference"/>
         <element label="Refund Type" max_length="32" name="refund_type" reference="x_1593191_refund_category" type="reference"/>
+        <element label="Integration Error Message" max_length="4000" name="integration_error_message" type="string"/>
         <element label="BRL" max_length="255" name="brl" type="float"/>
         <element label="Refund Date" max_length="40" name="refund_date" type="glide_date"/>
         <element label="Reproval Reason" max_length="4000" name="reproval_reason" type="string"/>

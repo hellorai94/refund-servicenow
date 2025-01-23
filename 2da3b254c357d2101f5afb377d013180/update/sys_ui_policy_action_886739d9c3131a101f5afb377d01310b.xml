@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
         <cleared>false</cleared>
-        <disabled>true</disabled>
-        <field>reproval_reason</field>
+        <disabled>ignore</disabled>
+        <field>integration_error_message</field>
         <field_message/>
         <field_message_type>none</field_message_type>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-22 03:08:49</sys_created_on>
-        <sys_id>c0174570c35756101f5afb377d0131de</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>reproval_reason</sys_name>
+        <sys_created_on>2025-01-23 19:57:07</sys_created_on>
+        <sys_id>886739d9c3131a101f5afb377d01310b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>integration_error_message</sys_name>
         <sys_package display_value="Refund" source="x_1593191_refund">2da3b254c357d2101f5afb377d013180</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refund">2da3b254c357d2101f5afb377d013180</sys_scope>
-        <sys_update_name>sys_ui_policy_action_c0174570c35756101f5afb377d0131de</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_886739d9c3131a101f5afb377d01310b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 03:10:40</sys_updated_on>
+        <sys_updated_on>2025-01-23 19:57:07</sys_updated_on>
         <table>x_1593191_refund_refund</table>
-        <ui_policy display_value="Read only after complete">31460d30c35756101f5afb377d0131c5</ui_policy>
+        <ui_policy display_value="Show error integration state only when usd is 0">4e27f1d9c3131a101f5afb377d013108</ui_policy>
         <value/>
         <value_action>ignore</value_action>
-        <visible>ignore</visible>
+        <visible>true</visible>
     </sys_ui_policy_action>
-    <sys_translated_text action="delete_multiple" query="documentkey=c0174570c35756101f5afb377d0131de"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=886739d9c3131a101f5afb377d01310b"/>
 </record_update>

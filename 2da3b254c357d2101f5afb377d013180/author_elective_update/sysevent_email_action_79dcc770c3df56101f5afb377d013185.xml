@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="DELETE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Refund" name="Refund">e6d8526cc39716101f5afb377d013178</category>
+        <collection>sys_user_group</collection>
+        <condition table="sys_user_group">roles=x_1593191_refund.refund_resolvers^include_members=true^EQ<item endquery="false" field="roles" goto="false" newquery="false" operator="=" or="false" value="x_1593191_refund.refund_resolvers"/>
+            <item endquery="false" field="include_members" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from>teste@email.com</from>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Hello.<br>A new member has been added to the : ${name}</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Someone add in resolver group</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users>e6bc0354c3d7d2101f5afb377d013108</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>New Member added in a Resolve Group</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 16:13:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>79dcc770c3df56101f5afb377d013185</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Someone add in resolver group</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Refund" source="x_1593191_refund">2da3b254c357d2101f5afb377d013180</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">2da3b254c357d2101f5afb377d013180</sys_scope>
+        <sys_update_name>sysevent_email_action_79dcc770c3df56101f5afb377d013185</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 23:07:49</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_es_latest_script action="DELETE">
+        <id>79dcc770c3df56101f5afb377d013185</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 16:13:51</sys_created_on>
+        <sys_id>a7baff34c39396101f5afb377d013197</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 16:13:51</sys_updated_on>
+        <table>sysevent_email_action</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund">2da3b254c357d2101f5afb377d013180</application>
+        <file_path/>
+        <instance_id>b49b406edb92f9d04162684e1396196b</instance_id>
+        <instance_name>dev206495</instance_name>
+        <name>sysevent_email_action_79dcc770c3df56101f5afb377d013185</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Refund" name="Refund"&gt;e6d8526cc39716101f5afb377d013178&lt;/category&gt;&lt;collection&gt;sys_user_group&lt;/collection&gt;&lt;condition table="sys_user_group"&gt;roles=x_1593191_refund.refund_resolvers^include_members=true^EQ&lt;item endquery="false" field="roles" goto="false" newquery="false" operator="=" or="false" value="x_1593191_refund.refund_resolvers"/&gt;&lt;item endquery="false" field="include_members" goto="false" newquery="false" operator="=" or="false" value="true"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;enable_dynamic_translation&gt;false&lt;/enable_dynamic_translation&gt;&lt;event_name&gt;activate.life.cycle.migration&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from&gt;teste@email.com&lt;/from&gt;&lt;generation_type&gt;engine&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;Hello.&lt;br&gt;A new member has been added to the : ${name}&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;Someone add in resolver group&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields/&gt;&lt;recipient_groups/&gt;&lt;recipient_users&gt;e6bc0354c3d7d2101f5afb377d013108&lt;/recipient_users&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;New Member added in a Resolve Group&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-22 16:13:05&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;79dcc770c3df56101f5afb377d013185&lt;/sys_id&gt;&lt;sys_mod_count&gt;21&lt;/sys_mod_count&gt;&lt;sys_name&gt;Someone add in resolver group&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Refund" source="x_1593191_refund"&gt;2da3b254c357d2101f5afb377d013180&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Refund"&gt;2da3b254c357d2101f5afb377d013180&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_79dcc770c3df56101f5afb377d013185&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-22 23:07:49&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template display_value="Unsubscribe and Preferences"&gt;7ed0481f3b0b2200c869c2c703efc487&lt;/template&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;79dcc770c3df56101f5afb377d013185&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-22 16:13:51&lt;/sys_created_on&gt;&lt;sys_id&gt;a7baff34c39396101f5afb377d013197&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-22 16:13:51&lt;/sys_updated_on&gt;&lt;table&gt;sysevent_email_action&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>912561669</payload_hash>
+        <record_name>Someone add in resolver group</record_name>
+        <reverted_from/>
+        <source>fce06b9cc31bd2101f5afb377d013168</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 23:07:49</sys_created_on>
+        <sys_id>2b79d5c1c39b96101f5afb377d013134</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19490459f960000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 23:07:49</sys_updated_on>
+        <type>Notification</type>
+        <update_guid>ef79d5c1d49b961050445498dd0a0233</update_guid>
+        <update_guid_history>ef79d5c1d49b961050445498dd0a0233:912561669,6a09044953d396102a469efd2a1abe62:276667941,17488c09ccd3961093d80f12a21be3cb:2104461365,14088c0920d39610df625164355726c7:-864064993,e26640c5a7d39610552f44ab6ec25d16:914114582,db72cc411dd396105aa6ef6103d94d71:-1715100083,0f320c41fbd39610287e28dc029a07ff:414221849,d6228c0181d39610fec074a7a9df45dd:-2116250638,5be08ccde39396103180909262161cf3:638862675,1280c4cde893961081ff1767eb940bac:-56776045,cf4044cd4593961043bf918dafef76d6:-1881938218,38ed373c9a939610d2cdf000dd9c4b01:-1994706427,378df7b854939610b51b7f4c3016efd7:-752498964,a08d37f84d939610ff336f0d6c2284d6:982786537,c43cbf78319396106ef92a230263ce53:714263153,2b0cb3b86d9396105ae0c6c966cdf337:982786537,3ddbbf78029396105b33e44ee59bc50a:-599052841,0e8bb77808939610b2d31a74872ef607:-1075303613,357bb378729396104db9e5cbc959bf0c:-2112112957,8d5bffb4dd939610ae0aa56e64abd6ba:955785917,afba7738d8939610d3ea596b37642ce5:-2141850116,189a73f4b6939610293e732371eb17dc:-1967153311</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 23:10:11</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_action">sysevent_email_action</sys_db_object>
+        <sys_id>18661c455fd84df982ae469fb45f45b9</sys_id>
+        <sys_metadata>79dcc770c3df56101f5afb377d013185</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Someone add in resolver group</sys_name>
+        <sys_package display_value="Refund" source="x_1593191_refund">2da3b254c357d2101f5afb377d013180</sys_package>
+        <sys_parent display_value="Sys User Group">e57fcb20dc1212104f34465061b06a5b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Refund">2da3b254c357d2101f5afb377d013180</sys_scope>
+        <sys_scope_delete display_value="">3b883fced2c243f08c360744fe05e440</sys_scope_delete>
+        <sys_update_name>sysevent_email_action_79dcc770c3df56101f5afb377d013185</sys_update_name>
+        <sys_update_version display_value="sysevent_email_action_79dcc770c3df56101f5afb377d013185">2b79d5c1c39b96101f5afb377d013134</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 23:10:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

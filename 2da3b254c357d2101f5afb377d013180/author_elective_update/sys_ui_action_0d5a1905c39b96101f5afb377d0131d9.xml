@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name/>
+        <active>false</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>current.state.toString() == "8"</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Paid</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[if(gs.getUser().getGroupID().toString() == current.assignment_group().toString()){
+	current.setValue("state", "6");
+	current.update();
+	action.setRedirectURL(current);
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 23:20:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0d5a1905c39b96101f5afb377d0131d9</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Paid</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Refund" source="x_1593191_refund">2da3b254c357d2101f5afb377d013180</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">2da3b254c357d2101f5afb377d013180</sys_scope>
+        <sys_update_name>sys_ui_action_0d5a1905c39b96101f5afb377d0131d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-23 02:13:42</sys_updated_on>
+        <table>x_1593191_refund_refund</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_es_latest_script action="DELETE">
+        <id>0d5a1905c39b96101f5afb377d0131d9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 23:20:50</sys_created_on>
+        <sys_id>5e7c9d85c39b96101f5afb377d0131f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 23:20:50</sys_updated_on>
+        <table>sys_ui_action</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund">2da3b254c357d2101f5afb377d013180</application>
+        <file_path/>
+        <instance_id>b49b406edb92f9d04162684e1396196b</instance_id>
+        <instance_name>dev206495</instance_name>
+        <name>sys_ui_action_0d5a1905c39b96101f5afb377d0131d9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;false&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;current.state.toString() == "8"&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Paid&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[if(gs.getUser().getGroupID().toString() == current.assignment_group().toString()){
+	current.setValue("state", "6");
+	current.update();
+	action.setRedirectURL(current);
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-22 23:20:51&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0d5a1905c39b96101f5afb377d0131d9&lt;/sys_id&gt;&lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;&lt;sys_name&gt;Paid&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Refund" source="x_1593191_refund"&gt;2da3b254c357d2101f5afb377d013180&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Refund"&gt;2da3b254c357d2101f5afb377d013180&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_0d5a1905c39b96101f5afb377d0131d9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-23 02:13:42&lt;/sys_updated_on&gt;&lt;table&gt;x_1593191_refund_refund&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;0d5a1905c39b96101f5afb377d0131d9&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-22 23:20:50&lt;/sys_created_on&gt;&lt;sys_id&gt;5e7c9d85c39b96101f5afb377d0131f8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-22 23:20:50&lt;/sys_updated_on&gt;&lt;table&gt;sys_ui_action&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1013495271</payload_hash>
+        <record_name>Paid</record_name>
+        <reverted_from/>
+        <source>fce06b9cc31bd2101f5afb377d013168</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-23 02:13:42</sys_created_on>
+        <sys_id>ae048e0dc35f96101f5afb377d01318d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19490efcf3c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-23 02:13:42</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>26048e0d795f96103731d9a45e97b78d</update_guid>
+        <update_guid_history>26048e0d795f96103731d9a45e97b78d:1013495271,dc52ca49445f961026751defdb8fb379:1168113210,c6def145185f961099fb0213284fffa5:1121106505,814b6dc9d3db9610a2ec1a881014b66c:-2105165559,0338298505db9610f1801620292c02dd:1514428144,382825c5a0db9610f302979f6cb138f2:-611924507,96e5e9c1f1db9610d78cdfc6260fe8d8:1121106505,9505658191db96107e0994f795a0b3e0:-589945916,e650e10dd09b9610f416ae7934b20353:2080967643,7bffd10d709b9610cb61141dad47655f:-1784958182,1bef910d639b9610793292a2f9e07b26:-126674891,967cdd85599b96105830c7ee8f5b79e1:1103481299</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-23 02:24:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>a46c06aec2854bbdab3910bc02f6cdd1</sys_id>
+        <sys_metadata>0d5a1905c39b96101f5afb377d0131d9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Paid</sys_name>
+        <sys_package display_value="Refund" source="x_1593191_refund">2da3b254c357d2101f5afb377d013180</sys_package>
+        <sys_parent display_value="Refund ">2c8d3250c397d2101f5afb377d013152</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Refund">2da3b254c357d2101f5afb377d013180</sys_scope>
+        <sys_scope_delete display_value="">3b883fced2c243f08c360744fe05e440</sys_scope_delete>
+        <sys_update_name>sys_ui_action_0d5a1905c39b96101f5afb377d0131d9</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_0d5a1905c39b96101f5afb377d0131d9">ae048e0dc35f96101f5afb377d01318d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-23 02:24:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
